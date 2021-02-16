@@ -1,0 +1,35 @@
++++
+Description = "Audio"
+FeaturedImage = ""
+Tags = ["KRK", "Current-drive", "loudspeaker"]
+math = "true"
+date = "2021-01-28T0:00:00-00:00"
+title = "Current-drive in the KRK Rokit RP8 studio-monitor loudspeaker"
++++
+
+# Current-drive in loudspeakers
+
+KRK
+Why this speaker is no longer pleasing me. Recessed mid-range. Not directly visible from the measured frequency response. The mid-range is not transparent (piano, human voice, toms, saxophone). Compare with 544.
+
+
+Experimenting. I am not a woodworker.
+
+Current drive, the book...
+
+Modifying
+Little problem with rectifier noise because of implications in the grounding scheme.
+
+The new frequency respose
+
+miniDSP crossover
+Check with atura spectrum analyzer.
+
+Listening in mono is a valuable observation. You get used to it. Sound image from a 2- or multi-way speaker must be small. Sound must like to appear from a single spot.
+If the sound widens in mono, piano seems to come from the side or back, then there is probably something wrong in the phasing between the drivers. The crossover filter is probably the cause of the problem.
+Sound placement comes from the stereo image, not by the speaker itself.
+
+
+
+
+

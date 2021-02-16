@@ -1,0 +1,105 @@
++++
+Description = "Audio"
+FeaturedImage = "/images/featured-4.jpg"
+Tags = ["MFB", "22RH544", "AD0211", "Philips", "Visaton", "G50FFL"]
+date = "2021-02-14T0:00:00-00:00"
+title = "The Philips 544 Motional Feedback Speaker"
++++
+
+The Philips 22RH544 Motional Feed-Back (MFB) speaker was produced from the mid seventies and this loudspeaker still competes with modern (active) audio speakers. The woofer in this speaker box is equiped with a piezo-electric accelerometer. A feedback circuit around the amplifier and woofer linearizes the frequency response and extends the frequency range at the low end and it reduces the harmonic distortion originating from the driver. In this blog I'll write about non-destructive modifications for this speaker and about experiments I did with it.
+
+![Philips 22RH544](/images/Philips-544/544_original.jpg "Philips 22RH544")
+
+The woofer from the 544 is mounted in a sealed box (suspension type). The low frequency reproduction is superb when one considers the small volume of the cabinet. This loudspeaker is often refurbished by hifi enthusiasts, thereby replacing the electrolytic capacitors and raplacing the Japaneese transistors for original old-stock Philips transistors.
+
+## A failing mid-range driver...
+A common failure in this loudspeaker is a defect AD0211 mid-range driver[1],[2].
+
+![AD0211](/images/Philips-544/AD0211.png "Philips AD0211")
+
+The voice coil wire breaks, not far off from the solder joint with the flexible Litz wire, due to corrosion. Others succesfully repaired the AD0211 by reconnecting the broken voice coil wire. My attempt was succesful, but the repair action changed the impedance curve by shifting the resonance peak. This is not an insurmountable problem, but I decided to find a substitute for the mid-range drivers to keep the left and right speaker equally.
+After some researching, I found the Visaton G50FFL dome midrange driver [3] as a good substitute for the Philips AD0211/SQ8 Squawker.
+
+
+## Mounting of the Visaton G50FFL
+The Visaton G50FFL comes with a flat mounting flange for mounting the driver on top of the sound board. The mounting hole in the 544 cabinet is too small to mount the G50FFL in the countersunk hole. 
+
+![Visaton G50FFL](/images/Philips-544/G50FFL.png "Visaton G50FFL")
+
+To fit the G50FFL in the cabinet thereby using the same screw mounting holes, I designed a new plastic horn that looks like the horn of the AD0211. I took the driver from the G50FFL apart from the flange. It is symply mounted with four screws.
+
+![G50FFL horn](/images/Philips-544/G50FFL_horn_v1.png  "G50FFL horn_v1")
+
+The G50FFL-dome is placed further inwards to the original position of the dome from the AD0211. The extra gasket that comes with the G50FFL, should be placed between the driver and the new horn.
+
+Assemble the G50FFL as follows:
+1. Push four washers (M4) into the holes in the front of the 3D-printed horn.
+
+![assy step 1](/images/Philips-544/G50FFL_horn_assy1.jpg  "assy step 1")
+
+![assy step 2](/images/Philips-544/G50FFL_horn_assy2.jpg  "assy step 2")
+
+![assy step 3](/images/Philips-544/G50FFL_horn_assy3.jpg  "assy step 3")
+
+Place the spare gasket. | Mount the baffle and cutaway the redundant gasket material. Use M4*10mm screws with cylinder head.
+
+![assy step 4](/images/Philips-544/G50FFL_horn_assy4.jpg  "assy step 4")
+
+Mount the completed driver assembly.
+
+![assy step 5](/images/Philips-544/G50FFL_horn_assy5.jpg  "assy step 5")
+
+
+
+
+
+
+![Modified 544](/images/Philips-544/544_modified.jpg "Modified 544")
+
+Attempt #3 seems the best compromise. It is the combination of the Visaton G50FFL soft dome midrange driver with the new baffle/horn design and the original Philips AD0163 tweeter. The provided solution solves the problem for a broken AD0211.
+The frequency response is very close to the original. Minimal modifications of the electronics is needed in the 22RH544/50R. 
+
+
+
+
+
+
+
+
+## Modification of the electronics
+To approach the original frequency response the following changes were made in the electronics of the 22RH544/50R:
+
+* The frequency correction network consisting of R730 and C567 from the crossover network, should be disabled by removing R730.
+* An L-pad network consisting of an 1.2 Ohms series resistor and a 47 Ohms parallel resistor should be placed between the crossover filter and the G50FFL driver (S405). This will add 1.5dB attenuation for the midrange.
+
+The 544 crossover network. In /50R, C568=3.3μF.
+![544 crossover network](/images/Philips-544/544_xover_network.png  "544 crossover network")
+![Xover modification in Xsim](/images/Philips-544/544_Xover_mod.jpg  "Xover modification in Xsim")
+
+Simulations were performed with Xsim [5].
+
+## Measurements
+The frequency response measurements were carried out with the Behringer ECM 8000 calibration microphone [6] located at 30cm distance from the center of the speaker. From this distance, the individual response of the drivers already balances out and the influence of the room is minimal.
+The frequency analyzer program that was used is Arta from Artalabs [7].
+
+Original 544 frequency response
+![Freq. response original 544](/images/Philips-544/FR_544_original.png  "Freq. response original 544") The boost in the high frequency range is remarkable. The reason for this could be the microphone. The factory datasheet of the ECM 8000 shows a somewhat elevated and rippled frequency response between 5kHz and 10kHz.
+
+Frequency response attempt #2
+![Attempt #2 freq. response](/images/Philips-544/FR_544_overall_Visaton.png  "Attempt #2 freq. response") A dominant frequency dip does appear around 1.8kHz and the G20SC starts rolling off from 9kHz (?)
+ 
+Frequency response attempt #3
+![Attempt #3 freq. response, original electronics.](/images/Philips-544/FR_544_yellow-original_green-G50FFLwBaffle.png  "Attempt #3 freq. response, original electronics.") *Yellow trace: the original 544 frequency response, green trace: Visaton G50FFL midrange with new baffle/horn and Philips AD0163/TE8 tweeter, no modifications in the electronics.* A slight boost in the frequencies around 1kHz is noticeable. The midrange dominates.
+ 
+Frequency response attempt #3, with modified electronics
+![Attempt #3 freq. response, and modifications in the electronics.](/images/Philips-544/544_G50FFLwBaffle-noR730-1dB5m.png  "Attempt #3 freq. response, and modifications in the electronics.") *Visaton G50FFL midrange with new baffle/horn design, original Philips AD0163/TE8 tweeter and modified electronics.*
+
+
+[1]: https://www.mfbfreaks.com/reparatie-en-service/tips-en-trucs/reparatie-middentoner-22ah587/
+
+[2]: http://www.transistorforum.nl/forum/index.php?mode=thread&id=19335
+
+[3]: https://www.visaton.de/en/products/dome-midranges/g-50-ffl-8-ohm
+
+ 
+
