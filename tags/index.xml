@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on MARTIN&#39;S BLOG</title>
-    <link>https://github.com/MartinStokroos/martins-blog.github.io/tags/</link>
+    <link>https://martinstokroos.github.io/tags/</link>
     <description>Recent content in Tags on MARTIN&#39;S BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Powered by HUGO. &amp;copy 2021 Martin Stokroos. All rights reserved.</copyright><atom:link href="https://github.com/MartinStokroos/martins-blog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Powered by HUGO. &amp;copy 2021 Martin Stokroos. All rights reserved.</copyright><atom:link href="https://martinstokroos.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

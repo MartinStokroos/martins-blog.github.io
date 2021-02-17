@@ -2,42 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on MARTIN&#39;S BLOG</title>
-    <link>https://github.com/MartinStokroos/martins-blog.github.io/post/</link>
+    <link>https://martinstokroos.github.io/post/</link>
     <description>Recent content in Posts on MARTIN&#39;S BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by HUGO. &amp;copy 2021 Martin Stokroos. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/MartinStokroos/martins-blog.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinstokroos.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Launch of my website</title>
-      <link>https://github.com/MartinStokroos/martins-blog.github.io/post/launch/</link>
+      <link>https://martinstokroos.github.io/post/launch/</link>
       <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/MartinStokroos/martins-blog.github.io/post/launch/</guid>
-      <description>Here I will post blogs of my projects soon to provide you some background information to my git projects and personal interests. The site is created with Hugo. I use the allegiant theme. I will come back soon&amp;hellip;
-Math script testing This page contains some example $$\LaTeX$$.
+      <guid>https://martinstokroos.github.io/post/launch/</guid>
+      <description>Here I will post blogs of my projects soon, to provide you some background information to my git projects and personal interests. This site was created with Hugo. I use the allegiant theme.
+I will come back soon&amp;hellip;
+Math script testing This page contains some example $$\LaTeX$$
 $$\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }$$</description>
-    </item>
-    
-    <item>
-      <title>Allegiant Features</title>
-      <link>https://github.com/MartinStokroos/martins-blog.github.io/post/features/</link>
-      <pubDate>Sun, 22 Nov 2015 10:54:54 -0700</pubDate>
-      
-      <guid>https://github.com/MartinStokroos/martins-blog.github.io/post/features/</guid>
-      <description>Allegiant &amp;ndash; A kick-ass Hugo theme Allegiant has all sorts of cool stuff. You can include a per-post background image by editing the &amp;ldquo;Featured Image&amp;rdquo; section in the post header data.
-Custom Config It&amp;rsquo;s got custom data you can edit in the config.toml file too. Here&amp;rsquo;s a sample:
-baseurl = &amp;#34;yoursitehere.com&amp;#34; languageCode = &amp;#34;en-us&amp;#34; title = &amp;#34;Allegiant&amp;#34; copyright = &amp;#34;&amp;amp;copy; Allegiant. All Rights Reserved.&amp;#34; # Copyright notice. This will be displayed in the footer.</description>
-    </item>
-    
-    <item>
-      <title>Introducing Allegiant -- A Hugo Theme</title>
-      <link>https://github.com/MartinStokroos/martins-blog.github.io/post/introducing-allegiant-a-hugo-theme/</link>
-      <pubDate>Sat, 21 Nov 2015 18:50:20 -0700</pubDate>
-      
-      <guid>https://github.com/MartinStokroos/martins-blog.github.io/post/introducing-allegiant-a-hugo-theme/</guid>
-      <description>So I made a WordPress Theme. And then I kept going and made a theme for Hugo, too.
-Why? Because I&amp;rsquo;m sick of everything else on the internet. And that&amp;rsquo;s not to say that there aren&amp;rsquo;t some great themes out there. There are some truly incredible themes. And they do everything. The problem is, however, that I don&amp;rsquo;t need everything. All I need is a simple page that is aesthetically pleasing, and quick.</description>
     </item>
     
   </channel>
