@@ -6,6 +6,25 @@
     <description>Recent content in Tags on MARTIN&#39;S BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Powered by HUGO. &amp;copy 2021 Martin Stokroos. All rights reserved.</copyright><atom:link href="https://martinstokroos.github.io/martins-blog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Powered by HUGO. &amp;copy 2021 Martin Stokroos. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinstokroos.github.io/martins-blog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CMSIS</title>
+      <link>https://martinstokroos.github.io/martins-blog.github.io/tags/cmsis/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinstokroos.github.io/martins-blog.github.io/tags/cmsis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STM32CubeIDE</title>
+      <link>https://martinstokroos.github.io/martins-blog.github.io/tags/stm32cubeide/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinstokroos.github.io/martins-blog.github.io/tags/stm32cubeide/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

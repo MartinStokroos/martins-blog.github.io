@@ -3,26 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://martinstokroos.github.io/martins-blog.github.io/tags/cmsis/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://martinstokroos.github.io/martins-blog.github.io/post/cmsis/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://martinstokroos.github.io/martins-blog.github.io/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://martinstokroos.github.io/martins-blog.github.io/post/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://martinstokroos.github.io/martins-blog.github.io/tags/stm32cubeide/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://martinstokroos.github.io/martins-blog.github.io/tags/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://martinstokroos.github.io/martins-blog.github.io/post/launch/</loc>
     <lastmod>2021-02-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinstokroos.github.io/martins-blog.github.io/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://martinstokroos.github.io/martins-blog.github.io/post/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://martinstokroos.github.io/martins-blog.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://martinstokroos.github.io/martins-blog.github.io/tags/</loc>
   </url>
   
 </urlset>

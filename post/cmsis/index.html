@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-  <title>Launch of my website &middot; MARTIN&#39;S BLOG</title>
+  <title>Integrating the CMSIS (DSP) library in STM32CubeIDE &middot; MARTIN&#39;S BLOG</title>
   <link rel="stylesheet" href="https://martinstokroos.github.io/martins-blog.github.io//css/style.css" />
   <link rel="stylesheet" href="https://martinstokroos.github.io/martins-blog.github.io//css/font-awesome.min.css" />
   <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,600' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-<header class="header" style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://martinstokroos.github.io/martins-blog.github.io//img/plane.jpg) 49.9% 49.9% / cover;" role="banner">
+<header class="header" style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://martinstokroos.github.io/martins-blog.github.io//images/embedded.JPG) 49.9% 49.9% / cover;" role="banner">
 <!-- FeaturedImage. Otherwise show default //-->
 
       <section id="branding">
@@ -38,7 +38,7 @@
       </section>
       <div class="post-heading">
         <h1>
-        Launch of my website
+        Integrating the CMSIS (DSP) library in STM32CubeIDE
         
         </h1>
       </div>
@@ -51,7 +51,7 @@
 
 <section id="content" role="main">
 <section class="entry-meta">
-  <span class="post-date">Feb 16, 2021</span>
+  <span class="post-date">Mar 12, 2021</span>
 </section></header>
 <section class="entry-content">
 
@@ -78,11 +78,19 @@
 
 
 <article>
-<p>Here I will post blogs of my projects soon, to provide you some background information to my git projects and personal interests. This site was created with Hugo. I use the allegiant theme.</p>
-<p>I will come back soon&hellip;</p>
-<h2 id="math-script-testing">Math script testing</h2>
-<p>This page contains some example $$\KaTeX$$</p>
-<p>$$\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }$$</p>
+<p>I couldn&rsquo;t find an option to download or integrate the ARM CMSIS library in STM32CubeIDE with a single mouse click. While working with the STM32F4 family controllers, I would like to make use of the DSP functions with the on chip FPU.</p>
+<p>The informative Youtube channel <a href="https://www.youtube.com/watch?v=vCcALaGNlyw">YetAnotherElectronicsChannel</a> explains how to manually add the CMSIS library into the project. I found a way to make the library selectable from the CubeMX configurator tool built-in the IDE.</p>
+<h2 id="workarond-for-installing-cmsis-in-smt32cubeide">Workarond for installing CMSIS in SMT32CubeIDE</h2>
+<p>The STM32CubeIDE also includes the CubeMX code generator for the HAL-layer and middleware. Once you installed the HAL-library package for STM32F4 (or another &lsquo;F&rsquo; family) a repository is created in: <em>../STM32Cube/Repository/STM32Cube_FW_F4_V1.26.0/</em></p>
+<p>Next download the CMSIS pack for ARM Cortex M4 from: <a href="https://developer.arm.com/tools-and-software/embedded/cmsis/cmsis-packs">https://developer.arm.com/tools-and-software/embedded/cmsis/cmsis-packs</a></p>
+<p>Extract the package and place it on the exact location: <em>../STM32Cube/Repository/Packs/ARM/CMSIS/4.3.0/</em> (The version number may differ in your case.)</p>
+<p>Start STM32CubeIDE and go to Packages Manager. The ARM tab should have become visible:</p>
+<p><img src="https://martinstokroos.github.io/martins-blog.github.io/images/cmsis/PackagesManager.png" alt="Packages Manager" title="packages manager"></p>
+<p>Select the wanted CMSIS version. Close and restart STM32CubeIDE and enable the required CMSIS package from the Component Selector:</p>
+<p><img src="https://martinstokroos.github.io/martins-blog.github.io/images/cmsis/PacksComponentSelector.png" alt="Packs Component Selector" title="packs component selector">
+It could be necessary to restart the program to make the package visible in the Projects Mode and Configuration panel.</p>
+<p><img src="https://martinstokroos.github.io/martins-blog.github.io/images/cmsis/SelectPacks.png" alt="Select Packs" title="select packs"></p>
+<p>That&rsquo;s it!</p>
 
 </section>
 <div class="entry-links"></div>
