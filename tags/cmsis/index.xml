@@ -14,7 +14,7 @@
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://martinstokroos.github.io/martins-blog.github.io/post/cmsis/</guid>
-      <description>I couldn&amp;rsquo;t find an option to download or integrate the ARM CMSIS library in STM32CubeIDE with a single mouse click. While working with the STM32F4 family controllers, I would like to make use of the DSP functions with the on chip FPU.
+      <description>I couldn&amp;rsquo;t find an option to download or integrate the ARM CMSIS (Cortex Microcontroller Software Interface Standard) library in STM32CubeIDE with a single mouse click. When working with the STM32F4 family controllers, I like to make use of the DSP functions with the on chip FPU.
 The informative Youtube channel YetAnotherElectronicsChannel explains how to manually add the CMSIS library into the project. I found a way to make the library selectable from the CubeMX configurator tool built-in the IDE.</description>
     </item>
     

@@ -78,17 +78,19 @@
 
 
 <article>
-<p>I couldn&rsquo;t find an option to download or integrate the ARM CMSIS library in STM32CubeIDE with a single mouse click. While working with the STM32F4 family controllers, I would like to make use of the DSP functions with the on chip FPU.</p>
+<p>I couldn&rsquo;t find an option to download or integrate the ARM CMSIS (Cortex Microcontroller Software Interface Standard) library in STM32CubeIDE with a single mouse click. When working with the STM32F4 family controllers, I like to make use of the DSP functions with the on chip FPU.</p>
 <p>The informative Youtube channel <a href="https://www.youtube.com/watch?v=vCcALaGNlyw">YetAnotherElectronicsChannel</a> explains how to manually add the CMSIS library into the project. I found a way to make the library selectable from the CubeMX configurator tool built-in the IDE.</p>
-<h2 id="workarond-for-installing-cmsis-in-smt32cubeide">Workarond for installing CMSIS in SMT32CubeIDE</h2>
-<p>The STM32CubeIDE also includes the CubeMX code generator for the HAL-layer and middleware. Once you installed the HAL-library package for STM32F4 (or another &lsquo;F&rsquo; family) a repository is created in: <em>../STM32Cube/Repository/STM32Cube_FW_F4_V1.26.0/</em></p>
-<p>Next download the CMSIS pack for ARM Cortex M4 from: <a href="https://developer.arm.com/tools-and-software/embedded/cmsis/cmsis-packs">https://developer.arm.com/tools-and-software/embedded/cmsis/cmsis-packs</a></p>
-<p>Extract the package and place it on the exact location: <em>../STM32Cube/Repository/Packs/ARM/CMSIS/4.3.0/</em> (The version number may differ in your case.)</p>
+<h2 id="workarond-for-installing-cmsis-in-stm32cubeide">Workarond for installing CMSIS in STM32CubeIDE</h2>
+<p>The STM32CubeIDE also includes the CubeMX code generator for the HAL-layer and middleware. Once you installed the HAL-library package for STM32F4 (or another &lsquo;F&rsquo; family) a repository is created in:</p>
+<p><code>../STM32Cube/Repository/STM32Cube_FW_F4_V1.26.0/</code></p>
+<p>Next download the CMSIS pack for ARM Cortex M4 from <a href="https://www.keil.com/dd2/pack/#">Keil</a>. Look for CMSIS under ARM.</p>
+<p>Extract the package and place it in the exact location (the version number may differ in your case):</p>
+<p><code>../STM32Cube/Repository/Packs/ARM/CMSIS/4.3.0/</code></p>
 <p>Start STM32CubeIDE and go to Packages Manager. The ARM tab should have become visible:</p>
 <p><img src="https://martinstokroos.github.io/martins-blog.github.io/images/cmsis/PackagesManager.png" alt="Packages Manager" title="packages manager"></p>
 <p>Select the wanted CMSIS version. Close and restart STM32CubeIDE and enable the required CMSIS package from the Component Selector:</p>
-<p><img src="https://martinstokroos.github.io/martins-blog.github.io/images/cmsis/PacksComponentSelector.png" alt="Packs Component Selector" title="packs component selector">
-It could be necessary to restart the program to make the package visible in the Projects Mode and Configuration panel.</p>
+<p><img src="https://martinstokroos.github.io/martins-blog.github.io/images/cmsis/PacksComponentSelector.png" alt="Packs Component Selector" title="packs component selector"></p>
+<p>It can be necessary to restart the program again to make the package visible in the Projects Mode and Configuration panel.</p>
 <p><img src="https://martinstokroos.github.io/martins-blog.github.io/images/cmsis/SelectPacks.png" alt="Select Packs" title="select packs"></p>
 <p>That&rsquo;s it!</p>
 
