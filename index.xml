@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by HUGO. &amp;copy 2021 Martin Stokroos. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinstokroos.github.io/martins-blog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinstokroos.github.io/martins-blog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audio Engineering Tips and Tools</title>
+      <link>https://martinstokroos.github.io/martins-blog.github.io/post/audio-links/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinstokroos.github.io/martins-blog.github.io/post/audio-links/</guid>
+      <description>On this page I give an overview of several tools and resources useful in audio engineering for both, the hobbyist and the semi-professional. Most of the software referred to is for free. I will keep on updating this overview. In my later blogs, I will make use of these tools.
+Useful Design Information   https://www.linkwitzlab.com/
+This site gives valuable information about active crossovers and open baffle speaker designs. The site was started by one of the co-founders of the field of audio engineering; Mr.</description>
+    </item>
+    
     <item>
       <title>Integrating the CMSIS (DSP) library in STM32CubeIDE</title>
       <link>https://martinstokroos.github.io/martins-blog.github.io/post/cmsis/</link>

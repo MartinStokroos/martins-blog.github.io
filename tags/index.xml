@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by HUGO. &amp;copy 2021 Martin Stokroos. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinstokroos.github.io/martins-blog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinstokroos.github.io/martins-blog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>audio</title>
+      <link>https://martinstokroos.github.io/martins-blog.github.io/tags/audio/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinstokroos.github.io/martins-blog.github.io/tags/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://martinstokroos.github.io/martins-blog.github.io/tags/tips/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinstokroos.github.io/martins-blog.github.io/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://martinstokroos.github.io/martins-blog.github.io/tags/tools/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinstokroos.github.io/martins-blog.github.io/tags/tools/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>CMSIS</title>
       <link>https://martinstokroos.github.io/martins-blog.github.io/tags/cmsis/</link>
